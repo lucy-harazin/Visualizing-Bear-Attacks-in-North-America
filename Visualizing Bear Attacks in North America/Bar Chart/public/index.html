@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<title>Final Project Lucy Harazin</title>
+
+	<!-- Custom files -->
+	<link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body class="container">
+	<h1>Final Project Lucy Harazin</h1>
+	<h2>Bear Attacks North America by Age</h2>
+
+	<!-- Add your code here -->
+	<div class="row">
+		<div class="col-md-6 text-left">
+			<div class="source"> <a href="https://www.kaggle.com/datasets/stealthtechnologies/bear-attacks-north-america?resource=download">Source: Bear Attacks North America
+            </a> </div>
+		</div>
+	</div>
+	<br>
+
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary active">
+			<input value="male" class="gender" type="radio" name="options" id="option1" autocomplete="off" checked>Male
+		</label>
+		<label class="btn btn-primary">
+			<input value="female" type="radio" class="gender" name="options" id="option2" autocomplete="off">Female
+		</label>
+		<label class="btn btn-primary">
+			<input value="all" type="radio" class="gender" name="options" id="option3" autocomplete="off">All
+		</label>
+	</div>
+	<div id="vis"></div>
+
+	<!-- Libraries -->
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+		type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+
+	<div id="tooltip"></div>
+
+	<!-- your script file -->
+	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<script src="js/barchart.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
